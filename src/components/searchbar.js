@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
 
 const SearchBar = (props) => {
   return (
-    <View style={{ margin: 50 }}>
+    <View style={{ marginTop: 50, marginBottom: 10 }}>
       <TextInput
         style={styles.textInput}
         placeholder="Search"
